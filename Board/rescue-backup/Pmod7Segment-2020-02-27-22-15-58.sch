@@ -1,5 +1,72 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 2
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:linear
+LIBS:logo
+LIBS:memory
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:msp430
+LIBS:nxp_armmcu
+LIBS:opto
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:siliconi
+LIBS:special
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:beaglebone
+LIBS:digilent
+LIBS:kingbright
+LIBS:maxim
+LIBS:Pmod7Segment-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +81,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Pmod7Segment-rescue:SA39-11 LED1
+L SA39-11 LED1
 U 1 1 54A80DD5
 P 3300 2050
 F 0 "LED1" H 3000 2550 60  0000 L CNN
@@ -25,7 +92,7 @@ F 3 "" H 3600 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pmod7Segment-rescue:SA39-11 LED2
+L SA39-11 LED2
 U 1 1 54A80DFF
 P 4700 2050
 F 0 "LED2" H 4400 2550 60  0000 L CNN
@@ -36,7 +103,7 @@ F 3 "" H 5000 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pmod7Segment-rescue:SA39-11 LED3
+L SA39-11 LED3
 U 1 1 54A80E2A
 P 6100 2050
 F 0 "LED3" H 5800 2550 60  0000 L CNN
@@ -47,7 +114,7 @@ F 3 "" H 6400 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pmod7Segment-rescue:SA39-11 LED4
+L SA39-11 LED4
 U 1 1 54A80E55
 P 7500 2050
 F 0 "LED4" H 7200 2550 60  0000 L CNN
@@ -58,7 +125,7 @@ F 3 "" H 7800 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pmod7Segment-rescue:SA39-11 LED5
+L SA39-11 LED5
 U 1 1 54A80E7B
 P 3300 3450
 F 0 "LED5" H 3000 3950 60  0000 L CNN
@@ -69,7 +136,7 @@ F 3 "" H 3600 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pmod7Segment-rescue:SA39-11 LED6
+L SA39-11 LED6
 U 1 1 54A80E9E
 P 4700 3450
 F 0 "LED6" H 4400 3950 60  0000 L CNN
@@ -80,7 +147,7 @@ F 3 "" H 5000 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pmod7Segment-rescue:SA39-11 LED7
+L SA39-11 LED7
 U 1 1 54A80EC5
 P 6100 3450
 F 0 "LED7" H 5800 3950 60  0000 L CNN
@@ -91,7 +158,7 @@ F 3 "" H 6400 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pmod7Segment-rescue:SA39-11 LED8
+L SA39-11 LED8
 U 1 1 54A80EF3
 P 7500 3450
 F 0 "LED8" H 7200 3950 60  0000 L CNN
@@ -449,98 +516,98 @@ NoConn ~ 2900 5400
 NoConn ~ 3600 5400
 NoConn ~ 10400 2750
 $Comp
-L Pmod7Segment-rescue:R R1
+L R R1
 U 1 1 54A81B67
 P 2550 4900
 F 0 "R1" V 2630 4900 40  0000 C CNN
 F 1 "R" V 2557 4901 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 4900 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 2480 4900 30  0001 C CNN
 F 3 "" H 2550 4900 30  0000 C CNN
 	1    2550 4900
 	0    1    1    0   
 $EndComp
 $Comp
-L Pmod7Segment-rescue:R R2
+L R R2
 U 1 1 54A81BA6
 P 2550 5000
 F 0 "R2" V 2630 5000 40  0000 C CNN
 F 1 "R" V 2557 5001 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 5000 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 2480 5000 30  0001 C CNN
 F 3 "" H 2550 5000 30  0000 C CNN
 	1    2550 5000
 	0    1    1    0   
 $EndComp
 $Comp
-L Pmod7Segment-rescue:R R3
+L R R3
 U 1 1 54A81BEE
 P 2550 5100
 F 0 "R3" V 2630 5100 40  0000 C CNN
 F 1 "R" V 2557 5101 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 5100 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 2480 5100 30  0001 C CNN
 F 3 "" H 2550 5100 30  0000 C CNN
 	1    2550 5100
 	0    1    1    0   
 $EndComp
 $Comp
-L Pmod7Segment-rescue:R R4
+L R R4
 U 1 1 54A81C31
 P 2550 5200
 F 0 "R4" V 2630 5200 40  0000 C CNN
 F 1 "R" V 2557 5201 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 5200 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 2480 5200 30  0001 C CNN
 F 3 "" H 2550 5200 30  0000 C CNN
 	1    2550 5200
 	0    1    1    0   
 $EndComp
 $Comp
-L Pmod7Segment-rescue:R R5
+L R R5
 U 1 1 54A81C73
 P 3950 4900
 F 0 "R5" V 4030 4900 40  0000 C CNN
 F 1 "R" V 3957 4901 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 4900 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 3880 4900 30  0001 C CNN
 F 3 "" H 3950 4900 30  0000 C CNN
 	1    3950 4900
 	0    1    1    0   
 $EndComp
 $Comp
-L Pmod7Segment-rescue:R R6
+L R R6
 U 1 1 54A81CBF
 P 3950 5000
 F 0 "R6" V 4030 5000 40  0000 C CNN
 F 1 "R" V 3957 5001 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 5000 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 3880 5000 30  0001 C CNN
 F 3 "" H 3950 5000 30  0000 C CNN
 	1    3950 5000
 	0    1    1    0   
 $EndComp
 $Comp
-L Pmod7Segment-rescue:R R7
+L R R7
 U 1 1 54A81D0A
 P 3950 5100
 F 0 "R7" V 4030 5100 40  0000 C CNN
 F 1 "R" V 3957 5101 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 5100 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 3880 5100 30  0001 C CNN
 F 3 "" H 3950 5100 30  0000 C CNN
 	1    3950 5100
 	0    1    1    0   
 $EndComp
 $Comp
-L Pmod7Segment-rescue:R R8
+L R R8
 U 1 1 54A81D58
 P 3950 5200
 F 0 "R8" V 4030 5200 40  0000 C CNN
 F 1 "R" V 3957 5201 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 5200 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 3880 5200 30  0001 C CNN
 F 3 "" H 3950 5200 30  0000 C CNN
 	1    3950 5200
 	0    1    1    0   
 $EndComp
 $Comp
-L Pmod7Segment-rescue:GND #PWR0101
+L GND #PWR?
 U 1 1 54A82B4B
 P 2800 5300
-F 0 "#PWR0101" H 2800 5300 30  0001 C CNN
+F 0 "#PWR?" H 2800 5300 30  0001 C CNN
 F 1 "GND" H 2800 5230 30  0001 C CNN
 F 2 "" H 2800 5300 60  0000 C CNN
 F 3 "" H 2800 5300 60  0000 C CNN
@@ -548,10 +615,10 @@ F 3 "" H 2800 5300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Pmod7Segment-rescue:GND #PWR0102
+L GND #PWR?
 U 1 1 54A82B70
 P 3700 5300
-F 0 "#PWR0102" H 3700 5300 30  0001 C CNN
+F 0 "#PWR?" H 3700 5300 30  0001 C CNN
 F 1 "GND" H 3700 5230 30  0001 C CNN
 F 2 "" H 3700 5300 60  0000 C CNN
 F 3 "" H 3700 5300 60  0000 C CNN
@@ -559,12 +626,12 @@ F 3 "" H 3700 5300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Pmod7Segment-rescue:PMOD J1
+L PMOD J1
 U 1 1 54A828DA
 P 3250 5150
 F 0 "J1" H 3000 4750 60  0000 L CNN
 F 1 "PMOD" H 3250 5550 60  0000 C CNN
-F 2 "Kicad:PMODHeader_2x06_P2.54mm_Horizontal" H 3150 4800 60  0000 C CNN
+F 2 "Digilent:PMOD-DUAL-MALE" H 3150 4800 60  0000 C CNN
 F 3 "" H 3150 4800 60  0000 C CNN
 	1    3250 5150
 	1    0    0    -1  
